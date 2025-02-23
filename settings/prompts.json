@@ -1,0 +1,67 @@
+{
+    "prompts": [
+        {
+            "category": "PostgreSQL",
+            "questions": [
+                "Wie kann ich alle Datenbanken auf meinem lokalen PostgreSQL-Server auflisten und mich dann mit der Datenbank 'kundendb' verbinden?",
+                "Ich möchte ein PostgreSQL Backup einer spezifischen Datenbank erstellen und in einer bestimmten Datei speichern. Die Datenbank heißt 'webshop' und das Backup soll unter '/backups/webshop_20240128.sql' gespeichert werden. Wie lautet der Befehl?",
+                "Wie kann ich alle aktiven Verbindungen zur Datenbank 'production_db' anzeigen und bei Bedarf problematische Verbindungen beenden?",
+                "Ich muss den Besitzer aller Tabellen in der Datenbank 'analytics' vom Benutzer 'old_admin' zu 'new_admin' ändern. Wie geht das?",
+                "Wie optimiere ich die Performance einer langsamen Postgres-Datenbank durch Vacuum und Analyze der wichtigsten Tabellen?"
+            ]
+        },
+        {
+            "category": "Docker",
+            "questions": [
+                "Zeige mir, wie ich alle laufenden Docker Container anzeigen kann und dann einen spezifischen Container mit dem Namen 'nginx-proxy' neustarten kann.",
+                "Ich möchte alle ungenutzten Docker Images und Volumes auf meinem System löschen, um Speicherplatz freizugeben. Welche Befehle muss ich ausführen?",
+                "Wie kann ich die CPU- und RAM-Nutzung aller laufenden Container in Echtzeit überwachen?",
+                "Ich brauche einen Befehl zum Exportieren eines Docker Images als tar-Archiv und dessen sicheren Transfer auf einen anderen Server.",
+                "Wie erstelle ich ein Backup aller Docker Volumes und stelle sicher, dass keine Daten verloren gehen?",
+                "Zeige mir, wie ich die Logs mehrerer Container gleichzeitig überwachen kann, gefiltert nach ERROR-Meldungen."
+            ]
+        },
+        {
+            "category": "System",
+            "questions": [
+                "Ich brauche einen Befehl, der rekursiv alle Python-Dateien (.py) in meinem Home-Verzeichnis findet, die in den letzten 7 Tagen geändert wurden. Wie geht das?",
+                "Wie kann ich den Speicherplatzverbrauch aller Verzeichnisse unter /var/log anzeigen, sortiert nach Größe, und nur die Top 5 größten anzeigen?",
+                "Ich möchte alle Dateien in meinem aktuellen Verzeichnis finden, die größer als 100MB sind, und deren Berechtigungen auf 644 ändern. Wie lautet der Befehl?",
+                "Zeige mir, wie ich alle Prozesse anzeigen kann, die mehr als 1GB RAM verbrauchen, sortiert nach Speicherverbrauch.",
+                "Wie kann ich systemweit nach Dateien suchen, die in den letzten 24 Stunden modifiziert wurden und setuid-Rechte haben?",
+                "Ich brauche einen Befehl zum Monitoring der Netzwerkverbindungen, der nur ausgehende HTTPS-Verbindungen anzeigt.",
+                "Wie kann ich alle Cronjobs aller Benutzer auflisten und in eine Datei exportieren?"
+            ]
+        },
+        {
+            "category": "Netzwerk",
+            "questions": [
+                "Wie kann ich alle offenen Ports auf meinem System anzeigen und identifizieren, welche Dienste diese nutzen?",
+                "Ich möchte den Netzwerkverkehr zu einer spezifischen IP-Adresse überwachen und in eine Datei protokollieren.",
+                "Wie teste ich die SSL/TLS-Konfiguration und Zertifikate eines Webservers auf Sicherheitslücken?",
+                "Zeige mir einen Befehl zur Diagnose von Netzwerkproblemen zwischen zwei Servern mit detaillierter Latenz-Analyse.",
+                "Wie kann ich die aktuelle Bandbreitennutzung pro Prozess anzeigen und limitieren?"
+            ]
+        },
+        {
+            "category": "Sicherheit",
+            "questions": [
+                "Wie kann ich alle fehlgeschlagenen Login-Versuche der letzten Stunde analysieren und nach IP-Adressen gruppieren?",
+                "Ich möchte eine Liste aller Dateien erstellen, die in den letzten 30 Tagen ihre Checksumme geändert haben.",
+                "Wie kann ich alle Prozesse identifizieren, die ungewöhnliche Netzwerkverbindungen aufbauen?",
+                "Zeige mir, wie ich die Berechtigungen aller SUID-Binaries überprüfen und protokollieren kann.",
+                "Wie erstelle ich einen Snapshot aller aktuell installierten Pakete für eine Sicherheitsüberprüfung?"
+            ]
+        },
+        {
+            "category": "Backup",
+            "questions": [
+                "Wie erstelle ich ein inkrementelles Backup bestimmter Verzeichnisse mit rsync und Ausschluss temporärer Dateien?",
+                "Ich brauche einen Befehl zum automatischen Löschen von Backups, die älter als 30 Tage sind.",
+                "Wie kann ich ein verschlüsseltes Backup eines ganzen Verzeichnisses erstellen und auf einen Remote-Server übertragen?",
+                "Zeige mir, wie ich den Status und Fortschritt eines laufenden Backup-Prozesses überwachen kann.",
+                "Wie stelle ich sicher, dass mein Backup-Script auch bei Netzwerkproblemen robust funktioniert?"
+            ]
+        }
+    ]
+}

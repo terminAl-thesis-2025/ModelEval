@@ -1,0 +1,34 @@
+
+
+{
+    "comment": "Please Change the file name to config.json and enter valid settings according to the template.",
+    "base_url": "local Ollama URL",
+    "models": {
+        "model0": {
+            "name": "name according to Ollama",
+            "description": "description to model (not necessary)"
+        },
+        "model1": {
+            "name": "name according to Ollama",
+            "description": "description to model (not necessary)"
+        },
+        "model2": {
+            "name": "name according to Ollama",
+            "description": "description to model (not necessary)"
+        },
+        "model3": {
+            "name": "name according to Ollama",
+            "description": "description to model (not necessary)"
+        },
+        "model4": {
+            "name": "name according to Ollama",
+            "description": "description to model (not necessary)"
+        }
+    },
+    "system_prompt": "insert system prompt here",
+    "num_predict": 100,
+    "context_length": 2048,
+    "timeout": 30,
+    "stop_tokens": ["\n\n"],
+    "format": "json"
+}
