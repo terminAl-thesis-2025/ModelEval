@@ -2,11 +2,9 @@ import requests
 from datetime import datetime
 from pathlib import Path
 from tqdm import tqdm
-import time
 import json
 import logging
 from typing import Dict, List
-from contextlib import contextmanager
 
 logging.basicConfig(
     level=logging.INFO,

@@ -53,7 +53,7 @@ Contains settings for:
 Run the evaluation:
 
 ```bash
-python main.py
+python decoder_eval.py
 ```
 
 The tool will:
